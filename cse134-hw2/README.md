@@ -1,2 +1,3 @@
-testing
-# cse134-hw2
+Name: Jared Villanueva
+PID: A15821317
+email: jtvillan@ucsd.edu
