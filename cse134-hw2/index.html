@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html>
- <body style="background-color:#A3DCC0"></body>
   <head>
    <title> Jared Villanueva | Portfolio </title>
   </head>
-  <body>
+  <body style="background-color:#A3DCC0">
    <meta charset="UTF-8">
    <meta name="description" content="Jared's Personal Portfolio">
    <meta name="keywords" content="HTML,CSS,JavaScript">
@@ -20,7 +19,7 @@
       </nav> <br>
       <a href = "/Resume/">Resume</a> <br><br>
     <main>
-      <image src="public/face.png"></image>
+      <image src="public/face.png" alt="Jared's face">
       Jared Villanueva<br>
       <button type="button" id="btn" onclick="myFunction()">Click me!</button><br><br>
 
@@ -49,10 +48,10 @@
             <picture>
                 <source media="(min-width:1000px)" srcset="public/hawkinson-13.jpg">
                 <img src="public/hawkinson-10.jpg" alt="Bearl" width="400">
-                <figcaption>
-                    Fig.1 - <i>Tim Hawkinson: Bear - Stuary Art Collection.</i>
-                </figcaption>
             </picture>
+            <figcaption>
+                Fig.1 - <i>Tim Hawkinson: Bear - Stuary Art Collection.</i>
+            </figcaption>
         </figure>
 
     <form action="/social" method="get">
@@ -64,8 +63,7 @@
         </optgrup>
         <optgroup label="Professional"> 
             <option value="LinkdIn">LinkdIn</option>
-            <option value="GitHub"></option>
-        </optgroup>
+            <option value="GitHub">GitHub</option>
         </select><br><br>
        <input type="submit" value="Check me out!">
       </form>
@@ -173,17 +171,18 @@
     <fieldset>
     <legend> ... or use the following form</legend>
         <label for="fname">Name</label>
-        <input type="text" id="fname" name="fname"><br><br>
-        <label for="fname">Email</label>
-        <input type="text" id="fname" name="fname"><br><br>
-        <label for="fname">Subject</label>
-        <input type="text" id="fname" name="fname"><br><br>
+        <input type="text" id="name" name="name"><br><br>
+
+        <label for="name">Email</label>
+        <input type="text" id="email" name="email"><br><br>
+
+        <label for="sub">Subject</label>
+        <input type="text" id="sub" name="sub"><br><br>
+
         <input type="submit" value="Submit">
     </fieldset>
 </form>
-<p> 
-    <label for="">Message </label> 
-</p>
+
 <form action="/action_page.php" method="get">
     <textarea id="userMessage" name="userMessage" rows="4" 
               cols="50">
@@ -191,12 +190,11 @@
     
     <input type="submit" value="Send message!">
 </form>
-</script>
     
     <h2> Experiments </h2>
     
         <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/65FftemJ1DbbZ45DUfHJXE?utm_source=generator" 
-        width="500" height="352" frameBorder="0" allowfullscreen="" 
+        width="500" height="352" allowfullscreen="" 
         allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
     <hr>
