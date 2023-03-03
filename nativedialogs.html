@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Native Dialogs</title>
+    </head>
+    <body>
+        <script type="module" src="js/main.js"></script>
+        <script type="javascript" src="dist/purify.min.js"></script>
+
+        <h1>Part 1 - Simple Dialogs</h1>
+        
+        <h2>The alert() method</h2>
+        <p>Press the 'Alert' button to demonstrate it's functionality</p>
+        <button id="alertBtn">Alert</button>
+        
+        <br>
+        <hr>
+
+        <h2>The confirm() method</h2>
+        <p>Press the 'Confirm' button to demonstrate it's functionality</p>
+
+        <button id="confirmId"> Confirm</button>
+
+        <output id="confirmOutput"></output>
+
+        <br>
+        <hr>
+
+        <h2>The prompt() method</h2>
+        <p>Press the 'Prompt' button to demonstrate it's functionality</p>
+
+        <button id="promptId"> Prompt</button>
+        <output id="promptOutput"></output>
+
+        <br>
+        <hr>
+
+        <h2>The safer prompt() method</h2>
+        <p>Press the 'Safer Prompt' button to demonstrate it's functionality</p>
+
+        <button id="safeId"> Safer Prompt</button>
+        <output id="safeOutput"></output>
+
+        <br>
+        <hr>
+
+        <h1>Part 2: Custom Dialogs</h1>
+
+        <p>
+            <button id="showDialogId">Show dialog</button>
+            
+        </p>
+            
+        <dialog id="myDialogId">
+            <p>This is a dialog window</p>
+            <button id="closeDialogId">Close dialog</button>
+        </dialog>
+        
+
+    </body>
+</html>

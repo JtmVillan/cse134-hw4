@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Part 3: Simple CRUD</title>
+    </head>
+    <body>
+        <h1>Blog Posts</h1>
+        <main>
+            <ul id="post-list">
+            </ul>
+        </main>
+        <button id="add-post">Add Post</button>
+
+        <dialog id="post-dialog">
+            <form action="#">
+                <label>Post Title</label>
+                <input type="text" name="name" id="title" required /> 
+                <br><br>
+
+                <label>Post Date</label>
+                <input type="text" name="date" id="date" required />
+                <br><br>
+
+                <label>Post Summary</label><br>
+                <input type="text" name ="summary" id="summary" required />
+                <br><br>
+                
+                <button type="submit" id="save-post">Save</button>
+            </form>
+            <button type="cancel" id="cancel-post">Cancel</button>
+        </dialog>
+
+        <!-- <dialog id="edit-dialog">
+            <form action="#">
+                <label>Post Title</label>
+                <input type="text" name="name" id="edit-title" required/>
+                <br><br>
+
+                <label>Post Date</label>
+                <input type="text" name="date" id="edit-date" required/>
+                <br><br>
+
+                <label>Post Summary</label><br>
+                <input type="text" name ="summary" id="edit-summary" required/>
+                <br><br>
+                
+                <button type="submit" id="edit-save-post">Save</button>
+            </form>
+            <button type="cancel" id="edit-cancel-post">Cancel</button>
+        </dialog> -->
+
+        <dialog id="dialogDel">
+            <p>Delete post?</p>
+            <button id="cancelDel">Cancel</button>
+            <button id="confirmDel">Ok</button>
+        </dialog>
+
+        <dialog id="dialogEditTitle">
+            <form>
+                <label>Edit Title?</label>
+                <input type="text" name="name" id="edit-title"/> <br>
+                <button type="cancel" id="cancelEditTitle">Cancel</button>
+                <button type="submit" id="confirmEditTitle">Ok</button>
+            </form>
+        </dialog>
+
+        <dialog id="dialogEditDate">
+            <form>
+                <label>Edit Date?</label>
+                <input type="text" name="name" id="edit-date"/> <br>
+                <button type="cancel" id="cancelEditDate">Cancel</button>
+                <button type="submit" id="confirmEditDate">Ok</button>
+            </form>
+        </dialog>
+
+        <dialog id="dialogEditSum">
+            <form>
+                <label>Edit Summary?</label>
+                <input type="text" name="name" id="edit-sum"/> <br>
+                <button type="cancel" id="cancelEditSum">Cancel</button>
+                <button type="submit" id="confirmEditSum">Ok</button>
+            </form>
+        </dialog>
+
+        <script type="module" src="js/blog.js"></script>
+    </body>
+</html>
+
