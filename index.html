@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   <meta charset="UTF-8">
+   <meta name="description" content="Jared's Personal Portfolio">
+   <meta name="keywords" content="HTML,CSS,JavaScript">
+   <meta name="author" content="Jared Villanueva">
+   <link rel="stylesheet" href="css/style.css">
+   <title> Jared Villanueva</title>
+  </head>
+  <body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">SKILLS</a></li>
+                <li><a href="#">PROJECTS</a></li>
+                <li><a href="#">CONTACT</a></li>
+                <li><a href="#">EXPERIMENTS</a></li>
+                <li><a id="resume" href="#" >RESUME</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="landing">
+        <h1>Jared Villanueva</h1>
+        <p>Computer Engineer</p>
+    </div>
+
+    <main>
+        <section>
+            <div class="card" id="about">
+                <h2>ABOUT</h2>
+                <br>
+                <h3>UCSD '23 Computer Engineering Student</h3>
+                <br>
+                <article class="about_p">
+                    <div id="face">
+                        <aside>
+                            <img class="about_img" src="public/face.png" alt="Jared's face">
+                          </aside> 
+                        <p>
+                            I'm an a 4th year Computer Engineering undergraduate student 
+                            under the Electrical and Computer Engineering (ECE) department at 
+                            the Univeristy of California, San Diego (UCSD)
+                        </p>
+                    </div>
+                    
+                        <br>
+                    <p>
+                        My interest include full stack software design and development,
+                        web development, human-computer interaction design and 
+                        entrepreneurship.
+                    </p>
+                        <br>
+                    <em>University of Califorinia, San Diego (UCSD)</em>
+                        <br>
+                    <p>
+                        <ul>
+                            <li>
+                                Bachelor of Science in Computer Engineering
+                            </li>
+                        </ul>
+                    </p>
+                </article>
+            </div>
+
+            <div class="card" id="card_skills">
+                <h2>SKILLS</h2>
+                <div id="skills">
+                    <div>
+                        <label>Programing Languages</label>
+                        <br>
+                        <ol>
+                            <li>
+                                <code>
+                                    Java
+                                </code>
+                            </li>
+                            <li>
+                                <code>
+                                    C/C++
+                                </code>
+                            </li>
+                            <li>
+                                <code>
+                                    Python
+                                </code>
+                            </li>
+                            <li>
+                                <code>
+                                    HTML
+                                </code>
+                            </li>
+                            <li>
+                                <code>
+                                    CSS
+                                </code>
+                            </li>
+                            <li>
+                                <code>
+                                    JavaScript
+                                </code>
+                            </li>
+                        </ol>
+                    </div>
+
+                    <div>
+                        <label>System Tools</label>
+                        <br>
+                        <ol>
+                            <li>Android Studio</li>
+                            <li>Android Nearby API</li>
+                            <li>FastAPI</li>
+                            <li>System Verilog</li>
+                            <li>Questa</li>
+                            <li>ModelSim</li>
+                            <li>ARM Essembly</li>
+                            <li>x86</li>
+                        </ol>
+                    </div>
+
+                    <div>
+                        <label>Other Tools</label>
+                        <ol>
+                            <li>GIT</li>
+                            <li>GitHub</li>
+                            <li>ZenHub</li>
+                            <li>Junit</li>
+                            <li>Espresso</li>
+                            <li>Roboelectric</li>
+                            <li>GitHub Actions CI</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+            <div class="card" id="projects">
+                <h2>PROJECTS</h2>
+                <div id="projects">
+                    <details>
+                        <summary>
+                            <strong>Project 1</strong>
+                        </summary>
+        
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                            Id donec ultrices tincidunt arcu non sodales. Adipiscing elit ut 
+                            aliquam purus sit amet. In iaculis nunc sed augue. Velit euismod 
+                            in pellentesque massa placerat duis ultricies lacus. Aliquam malesuada
+                            bibendum arcu vitae elementum curabitur vitae nunc.</p>
+                    </details>
+                    <br>
+                    <details>
+                        <summary>
+                            <strong>Project 2</strong>
+                        </summary>
+        
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                            Id donec ultrices tincidunt arcu non sodales. Adipiscing elit ut 
+                            aliquam purus sit amet. In iaculis nunc sed augue. Velit euismod 
+                            in pellentesque massa placerat duis ultricies lacus. Aliquam malesuada
+                            bibendum arcu vitae elementum curabitur vitae nunc.</p>
+                    </details>
+                </div>
+            </div>
+            <div class="card" id="contact_card">
+                <h2>CONTACT ME!</h2>
+                <div id="contact">
+                    <div>
+                        <ul class="contact_info">
+                            <li>Email: <a href="##">jtvillan@ucsd.edu</a> || <a href="##">jared.t.m.villanueva@gmail.com</a></li>
+                            <li>Phone #: <a href="##">760-421-154</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <form action="" method="get">
+                            <fieldset>
+                                <legend> ... or use the following form</legend>
+                                    <label for="name" >Name</label>
+                                    <input class="input" type="text" id="name" name="name"><br><br>
+
+                                    <label for="email">Email</label>
+                                    <input class="input" type="text" id="email" name="email"><br><br>
+
+                                    <label for="sub">Subject</label>
+                                    <input class="input" type="text" id="sub" name="sub"><br><br>
+
+                                    <input type="submit" class="button" value="Submit">
+                            </fieldset>
+                        </form>
+                    </div>
+                    <div>
+                        <form action="" method="get">
+                            <textarea class="input" id="userMessage" name="userMessage" rows="4" 
+                                cols="50">
+                            </textarea>
+            
+                            <input type="submit" class="button" value="Send message!">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="experiements">
+            <div class="card" label="Social Media">
+              <form class="social_media" about="" method="get">
+
+                <label for="social">Social Media:</label>
+                <select id="social">
+                    <optgroup class="optgroup" label="Lifestyle">
+                        <option value="Instgram">Instgram</option>
+                        <option value="Discord">Discord</option>
+                    <optgroup class="optgroup" label="Professional"> 
+                        <option value="LinkdIn">LinkdIn</option>
+                        <option value="GitHub">GitHub</option>
+                </select>
+                <input type="submit" class="button" value="Check me out!">
+              </form>
+            </div> 
+            <br>
+            <h2>EXPERIMENTS</h2>
+                <br>
+            <!-- Audio/Button -->
+            <div class="exp" >
+                <h4>HTML Audio/Button Test</h4>
+                <button type="button" class="button" id="btn" onclick="myFunction()">Click me!</button><br><br>
+
+                <script>
+                    function myFunction() {
+                        document.getElementById("btn").innerHTML = "Play the audio below!";
+                    }
+                </script>
+                <audio controls src="hello.mp3" ></audio> <br>
+            </div>
+                <br>
+            <!-- SVG -->
+            <div class="exp">
+                <h4>HTML SVG Test</h4>
+                <svg label="svg_test"
+                    viewBox="0 0 36 36" fill="none" role="img" xmlns="http://www.w3.org/2000/svg" width="80" 
+                    height="80"><title>Maya Angelou</title><mask id="mask__beam" maskUnits="userSpaceOnUse" x="0" y="0" 
+                    width="36" height="36"><rect width="36" height="36" fill="#FFFFFF" 
+                    rx="72"></rect></mask><g mask="url(#mask__beam)"><rect width="36" 
+                    height="36" fill="#f9fad2"></rect><rect x="0" y="0" width="36" height="36" 
+                    transform="translate(-5 9) rotate(189 18 18) scale(1)" fill="#b3dbc8" rx="36"></rect><g 
+                    transform="translate(-5 4.5) rotate(-9 18 18)"><path d="M13,19 a1,0.75 0 0,0 10,0" 
+                    fill="#000000"></path><rect x="10" y="14" width="1.5" height="2" rx="1" stroke="none" 
+                    fill="#000000"></rect><rect x="24" y="14" width="1.5" height="2" rx="1" stroke="none" 
+                    fill="#000000"></rect></g></g>
+                </svg>
+            </div>
+                <br>
+            <!-- iFrame (spotify) -->
+            <div class="exp">
+                <h4>HTML iFrame Test</h4>
+                <iframe 
+                    src="https://open.spotify.com/embed/track/4gT3mNJA8lnlkYFqGZ8IA2?utm_source=generator" 
+                    width="300" height="300" frameBorder="0" allowfullscreen="" 
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                    loading="lazy">
+                </iframe>
+            </div>
+                <br>
+            <!-- Video -->
+            <div class="exp">
+                <h4>HTML Video Test</h4>
+                <video width="320" height="140" controls autoplay muted>
+                    <source src="knight.mp4" type="video/mp4">
+                </video> 
+                <aside class="knight_description">
+                    <h4>3D Medieval Knight</h4>
+                    <p>This medieval knight is a visual <br>
+                    representation of myself when I successfully <br>
+                    write some code and it works</p>
+                </aside>
+            </div>
+                <br>
+            <!-- Figure -->
+            <div class="exp">
+                <h4>HTML Figure Test</h4>
+                <figure>
+                    <picture>
+                        <source media="(min-width:1000px)" srcset="public/hawkinson-13.jpg">
+                        <img src="public/hawkinson-10.jpg" alt="Bearl" width="300">
+                    </picture>
+                    <figcaption>
+                        Fig.1 - <i>Tim Hawkinson: Bear - Stuary Art Collection.</i>
+                    </figcaption>
+                </figure>
+            </div>
+                <br>
+            <!-- Table -->
+            <div class="exp">
+                <h4>HTML Table Test</h4>
+                <table>
+                    <caption>Bunch of Data</caption>
+                        <colgroup>
+                            <col >
+                            <col >
+                        </colgroup>
+                    <tr>
+                        <th>Data 1</th>
+                        <th>Data 2</th>
+                    </tr>
+                    <tr>
+                        <td>Cheetos</td>
+                        <td>Doritos</td>
+                    </tr>
+                    <tr>
+                        <td>Coke</td>
+                        <td>Pepsi</td>
+                    </tr>
+                </table>
+            </div>
+                <br>
+            <!-- Datalist -->
+            <div class="exp">
+                <h4>HTML Datalist Test</h4>
+                <label for="school">Choose your school from the list:</label>
+                <input list="schools" name="school" id="school">
+    
+                <datalist id="schools">
+                    <option value="Revelle">
+                    <option value="Muir">
+                    <option value="Marshall">
+                    <option value="Warren">
+                    <option value="Roosevelt">
+                    <option value="Sixth">
+                    <option value="Seventh">
+                </datalist>
+            </div>
+                <br>
+            <!-- Pre -->
+            <div class="exp">
+                <h4>HTML Pre Tag Test</h4>
+                <p>Click the button below to display the hidden content from the template element.</p>
+
+                <button class="button" onclick="showContent()">Show hidden content</button>
+
+                <template>
+                    <pre>
+
+                    ╔═╗┬ ┬┬─┐┌─┐┬─┐┬┌─┐┌─┐
+                    ╚═╗│ │├┬┘├─┘├┬┘│└─┐├┤ 
+                    ╚═╝└─┘┴└─┴  ┴└─┴└─┘└─┘
+                    
+                    </pre>
+                </template>
+
+                <script>
+                    function showContent() {
+                        var temp = document.getElementsByTagName("template")[0];
+                        var clon = temp.content.cloneNode(true);
+                        document.body.appendChild(clon);
+                    }
+                </script>
+            </div>
+                <br>
+            <!-- Canvas -->
+            <div class="exp">
+                <h4>HTML Canvas Test</h4>
+                <canvas id="myCanvas">Your browser does not support the canvas tag.</canvas>
+
+                <script>
+                    var c = document.getElementById("myCanvas");
+                    var ctx = c.getContext("2d");
+                    ctx.fillStyle = "#F00065";
+                    ctx.fillRect(0, 0, 80, 100);
+                </script>
+            </div>
+        </div>
+        <footer>
+            @ Jared Villanueva 2023
+        </footer>
+    </main>
+  </body>
+</html>
