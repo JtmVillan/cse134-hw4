@@ -1,0 +1,269 @@
+/* Global */
+* {
+    box-sizing: border-box;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+  
+body {
+    background-color: var(--background);
+}
+
+main {
+    background-color: var(--background);
+}
+
+h2{
+    color:var(--green);
+}
+
+h3{
+  font-weight: bold;
+}
+
+h4 {
+  font-weight: bold;
+}
+
+/* Top Banner of Site */
+.landing {
+  text-align: center;
+  background-color: var(--nav_background);
+  background-image: url("public/pink_mtn1.jpg");
+  width: 100%;
+  height: 50%;
+  padding-top:250px;
+  padding-bottom:250px;
+}
+  
+.landing h1 {
+    font-size: 70px;
+}
+
+.landing p{
+    text-align: center;
+    font-weight: bolder;
+    font-family: monaco;
+    color:var(--pink);
+} 
+
+/* Navigation Bar */
+header {
+    align-items: center;
+    padding: 20px 50px;
+    box-shadow: 0 1px 8px #ddd;
+    position: sticky;
+    top:0;
+    background-color: #251a2f;
+    z-index: 1;
+}
+
+header li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px;
+}
+
+header a {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    color: #ffffff;
+    transition: all 0.3s ease 0s;
+}
+
+header a:hover {
+    color: #73f1b8;
+}
+
+#resume {
+    display: flex;
+    justify-content: space-between; 
+    align-items: right;
+    padding: 10px 25px;
+    box-shadow: 0 1px 8px #73f1b8;
+}
+
+.button {
+    background-color:var(--secondary_text_color);
+    color: white;
+    border:none; 
+    border-radius:10px; 
+    padding:10px;
+    min-height:30px; 
+    min-width: 10px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: var(--nav_background);
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color:var(--green);
+    color: #262335;
+}
+
+section {   
+  background-color: #262335;
+  display: flex;
+  flex-direction: column;
+}
+
+section h5 {
+  color: var(--green);
+}
+
+.card {
+  background-color: var(--background);
+  padding-bottom: 20px;
+  padding-top: 20px;
+  border: 2px solid white; 
+}
+/* About */
+#about h2, h3 {
+  text-align: center;
+}
+
+#face {
+  display: flex;
+}
+
+article {
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+article ul{
+  list-style-type: none;
+}
+
+article p {
+  line-height: 2rem;
+}
+
+
+/* Skills */
+#card_skills h2{
+  text-align: center;
+}
+
+#skills {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+}
+#skills label {
+color:var(--red);
+}
+
+/* Projects */
+#projects {
+  display: flex;
+  flex-direction: column;
+}
+#projects h2{
+  text-align: center;
+}
+
+#projects details{
+  text-align: left;
+  width: 50%;
+  margin-left: 300px;
+}
+
+/* Contact */
+
+#contact_card h2{
+  text-align: center;
+}
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  gap: 20px
+}
+
+#contact div {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+
+#contact a[href="##"]{ 
+  color: #f87f72;
+}
+
+#contact a:hover {
+  text-decoration: none;
+}
+
+#contact legend {
+color: #7b82af;
+}
+
+#contact .input {
+color: #262335;
+}
+
+/* Experiements */
+
+select, datalist, option, input{
+  color: black;
+}
+
+datalist {
+  color: black;
+}
+
+em {
+color:#37f8f6;
+font-weight: bolder;
+font-size: larger;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+pre {
+color: #ffde5c;
+}
+
+/* Responsive layout - when the screen is less than 970px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 970px) {
+.section, .leftcolumn {   
+  width: 100%;
+  padding: 0;
+}
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+.topnav a {
+  float: none;
+  width: 100%;
+}
+}
+
+footer {
+color: #7b82af;
+}
+
+@font-face {
+font-family: 'customFont';
+src: url(Caveat-VariableFont_wght); /*URL to font*/
+}
+
+:root {
+--yellow:  #ffde5c;
+--red:  #fe444f;
+--pink:  #ff7edb;
+--coral: #f87f72;
+--orange: #f0863c;
+--green: #73f1b8;
+--blue: #37f8f6;
+--background: #262335;
+--nav_background: #251a2f;
+--secondary_text_color: #7b82af;
+} 
